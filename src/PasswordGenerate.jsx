@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import generateRandomValue from './help.js'
 import { Password } from './Password.jsx';
-import './Passwordgenerate.css';
+import './PasswordGenerate.css';
 
 export default function PasswordGenerate() {
     let [password, setPassword] = useState([]);
